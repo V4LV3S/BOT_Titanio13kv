@@ -72,6 +72,7 @@ def recebimento(mensagem):
 
         planilha.save(filename= f'{sep_ci(recebimento[1])}.xlsx')
         bot.reply_to(mensagem, "CI registrada!")
+        print(f'RECEBIMENTO // {recebimento[1] // {sep_pgm(recebimento[2])} // {sep_vtr(recebimento[3])}}')
 
 
     except:
