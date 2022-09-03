@@ -71,13 +71,10 @@ def recebimento(mensagem):
 
 
         planilha.save(filename= f'{sep_ci(recebimento[1])}.xlsx')
+        print(f'RECEBIMENTO // {recebimento[1]} // {sep_pgm(recebimento[2])} // {sep_vtr(recebimento[3])}')
         bot.reply_to(mensagem, "CI registrada!")
-        print(f'RECEBIMENTO // {recebimento[1] // {sep_pgm(recebimento[2])} // {sep_vtr(recebimento[3])}}')
-
-
     except:
-        bot.reply_to(mensagem, "Ocorreu um erro. Verifique se seu registro está com a formotação certa!")
-
+        bot.reply_to(mensagem, "Ocorreu algum erro! Verifique a formatação da mensagem")
     
 
 

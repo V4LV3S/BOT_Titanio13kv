@@ -23,6 +23,7 @@ def organizador(registro):
     return [cab, ativ, hl]
 
 def sep_vtr(vtr: str)-> str:
+    
     if ':' in vtr:
         vtr = vtr.replace(':',' ')
     else:
