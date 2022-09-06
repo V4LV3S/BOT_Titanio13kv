@@ -27,6 +27,7 @@ REFLETOR1-ATIVO1/HORA1-ATIVO2/HORA2
 REFLETOR2-ATIVO1/HORA1-ATIVO2/HORA2
 
 É necessário seguir essa formatação perfeitamente, caso contrário vai dar merda!
+/BASE -> Copiar o texto base para adiantar a digitação
     """
     bot.send_message(mensagem.chat.id, texto)
 
