@@ -7,7 +7,6 @@ plan = planilha.active
 
 r = ['/OP1', 'CI:10', 'TODAS-AS-FLORES', 'VTR:M015', 'M40-oooooo/aaaaaaaaaa-123456/HL1-123456/HL2', 'HMI1200-654321/HL3-654321/HL4-dasdsad/kdskadk']
 x = organizador(r)
-print(x)
 
 plan['D5'] = datetime.now().strftime('%H:%M:%S')
 
