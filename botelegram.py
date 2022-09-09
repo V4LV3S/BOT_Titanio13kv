@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 from funcs import organizador, sep_ci, elim_vtr, sep_pgm, sep_vtr
 from planilhaEXP import verificador_plan
 from datetime import datetime
-import os.path
+
 
 #BOT CONFIG
 CHAVE_API = "5794326949:AAF1Jywq9pxuqlrPtBFI4mEmlfK2H8qFjaM"
