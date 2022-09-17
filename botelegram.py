@@ -117,11 +117,11 @@ def recebimento(mensagem):
         for v in range(len(x[0])):
 
             plan[f'C1{v}'] = f'{x[0][v]}'
-            print(plan[f'C1{v}'])
+            
             plan[f'E1{v}'] = f'{x[1][v]}'
-            print(plan[f'E1{v}'])
+            
             plan[f'G1{v}'] = f'{x[2][v]}'
-            print(plan[f'G1{v}'])
+            
 
 
         planilha.save(filename= f'REC_{sep_ci(recebimento[1])}.xlsx')
